@@ -19,7 +19,13 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    color: beige;
+    background-image: url('../assets/background.png'); 
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover; 
+    background-size: cover;
+    display: flex;
 }
 
 main {
@@ -28,6 +34,13 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+   
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 section {
